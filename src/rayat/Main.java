@@ -8,16 +8,16 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        Calculator calculator =new Calculator();
+        MyCalculator myCalculator =new MyCalculator();
 
         System.out.print("Enter the number : ");
         int a = input.nextInt();
-        int sum = calculator.divisorSum(a);
+        int sum = myCalculator.divisorSum(a);
         System.out.println("The sum of divisors of the number " + a + " is: " + sum + "\n");
 
         System.out.print("Enter the number for factorial : ");
         int b = input.nextInt();
-        BigInteger factorial = calculator.findFactorial(b);
+        BigInteger factorial = myCalculator.findFactorial(b);
         System.out.println("The factorial of the number " + b + " is: " + factorial);
     }
 

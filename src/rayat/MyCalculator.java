@@ -2,7 +2,7 @@ package rayat;
 
 import java.math.BigInteger;
 
-public class Calculator implements AdvancedArithmetic{
+public class MyCalculator implements AdvancedArithmetic{
 
     @Override
     public int divisorSum(int n) {
